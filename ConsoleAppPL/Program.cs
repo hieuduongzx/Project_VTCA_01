@@ -6,7 +6,11 @@ namespace ConsoleAppPL
     {
         static void Main(string[] args)
         {
-            Console.write("User name:");
+            Console.Write("User name:");
+            string username = Console.ReadLine();
+            Console.Write("Password:");
+            string password = Console.ReadLine();
+
         }
     }
 }
